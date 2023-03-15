@@ -1,0 +1,77 @@
+#! /bin/bash
+
+filesIn=""
+filesR=""
+
+
+listPathMat=`ls in/1_0_curveElev_NoSmoothering.asc | sort -V`
+listPathWKS=`ls in/1_0_wks.txt | sort -V`
+
+listMat=${listPathMat//in\/1_0/}
+listWKS=${listPathWKS//in\/1_0/}
+echo "List Mat : ${listMat}"
+
+if [ -z "$listWKS" ]; then
+    echo "List WKS empty, replacing it by \"a\" string"
+    isWKSEmpty=true
+fi
+
+#permet de reperer les differentes matrices a faire
+for fMat in $listMat; do
+    filesIn=""
+    filesInWKS=""
+
+   for fin in `ls in/*${listMat} | sort -V` ; do
+	
+	#echo "fin : ${fin}"
+	filesIn="${filesIn} ${fin}"
+	
+    done
+
+
+    #fout=${fin//\.asc/}
+    fout=${fin//\.txt/}
+    fout=${fout//in\//out\/}
+    #si 2 chiffres pour le plus grand : [[:digit:]][[:digit:]]
+    fout=${fout//[[:digit:]][[:digit:]][[:digit:]]_[[:digit:]][[:digit:]]_/}
+
+    if $isWKSEmpty ; then
+	for fin in `ls in/*${listMat} | sort -V` ; do
+
+	    filesInWKS="${filesInWKS} a"
+	    
+	done
+    else
+	for fin in `ls in/*${listWKS} | sort -V` ; do
+	    
+	   # echo "fin WKS : ${fin}"
+	    filesInWKS="${filesInWKS} ${fin}"
+	    
+	done
+    fi
+ 
+
+
+
+    echo "fout : ${fout}"
+
+    #valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes
+    ./scoreDistCvxLocal ${filesIn} ${filesInWKS} "${fout}"
+
+done
+
+
+filesRin=""
+filesRout=""
+fileREADME="out/README.txt"
+ 
+for finR in `ls out/*Elev_score.txt | sort -V`; do 
+    echo "${finR}"
+    filesRin="${filesRin} ${finR}"
+    foutR=${finR//\.txt/\.png}
+    filesRout="${filesRout} ${foutR}"
+done
+
+
+./matrixScore.R ${filesRin} ${fileREADME} ${filesRout} 
+
