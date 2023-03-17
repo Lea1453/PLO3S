@@ -1,0 +1,24 @@
+/**
+ \defgroup ITKDenoising Module ITKDenoising 
+ This module contains denoising algorithms such as patch-based denoising. 
+ \par Dependencies:
+ \li \ref ITKCommon 
+ \li \ref ITKImageAdaptors 
+ \li \ref ITKImageFunction 
+ \li \ref ITKImageGrid 
+ \li \ref ITKImageStatistics 
+ \li \ref ITKStatistics 
+ \li \ref ITKTransform 
+ \dot 
+ graph "ITKDenoising" { 
+ "ITKDenoising" -- "ITKCommon"; 
+ "ITKDenoising" -- "ITKImageAdaptors"; 
+ "ITKDenoising" -- "ITKImageFunction"; 
+ "ITKDenoising" -- "ITKImageGrid"; 
+ "ITKDenoising" -- "ITKImageStatistics"; 
+ "ITKDenoising" -- "ITKStatistics"; 
+ "ITKDenoising" -- "ITKTransform"; 
+ } 
+ \enddot 
+ */
+

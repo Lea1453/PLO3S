@@ -1,0 +1,7 @@
+# Target labels
+ ITKGDCM
+# Source files and their labels
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Utilities/gdcmcharls/header.cpp
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Utilities/gdcmcharls/interface.cpp
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Utilities/gdcmcharls/jpegls.cpp
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Utilities/gdcmcharls/stdafx.cpp

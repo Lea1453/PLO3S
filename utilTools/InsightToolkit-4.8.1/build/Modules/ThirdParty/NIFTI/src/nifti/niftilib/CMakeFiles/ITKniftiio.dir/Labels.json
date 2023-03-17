@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NIFTI/src/nifti/niftilib/nifti1_io.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKNIFTI"
+		],
+		"name" : "ITKniftiio"
+	}
+}

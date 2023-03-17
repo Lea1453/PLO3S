@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Segmentation/BioCell/src/itkBioGenome.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Segmentation/BioCell/src/itkBioGene.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Segmentation/BioCell/src/itkBioGeneNetwork.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Segmentation/BioCell/src/itkBioCellBase.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Segmentation/BioCell/src/itkBioCellularAggregateBase.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKBioCell"
+		],
+		"name" : "ITKBioCell"
+	}
+}

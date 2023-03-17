@@ -1,0 +1,4 @@
+# Target labels
+ ITKIOTransformInsightLegacy
+# Source files and their labels
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/TransformInsightLegacy/src/itkTxtTransformIOFactory.cxx

@@ -1,0 +1,160 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmByteValue.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmDataElement.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmDataSet.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmExplicitDataElement.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmFile.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmFileMetaInformation.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmFragment.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmImplicitDataElement.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmItem.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmMediaStorage.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmPrivateTag.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmReader.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmSequenceOfFragments.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmSequenceOfItems.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmValue.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmReader.strict.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmTag.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmTagToVR.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmCodeString.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmFileSet.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmByteSwapFilter.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmUNExplicitImplicitDataElement.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmWriter.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmCSAHeader.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmPDBHeader.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmTransferSyntax.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmVM.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmVR.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmPreamble.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmParseException.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmUNExplicitDataElement.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmCP246ExplicitDataElement.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmExplicitImplicitDataElement.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/gdcmVR16ExplicitDataElement.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmByteValue.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmDataElement.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmDataSet.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmExplicitDataElement.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmFile.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmFileMetaInformation.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmFragment.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmImplicitDataElement.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmItem.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmMediaStorage.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmPrivateTag.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmReader.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmSequenceOfFragments.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmSequenceOfItems.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/GDCM/src/gdcm/Source/DataStructureAndEncodingDefinition/strict_gdcmValue.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKGDCM"
+		],
+		"name" : "gdcmDSED"
+	}
+}

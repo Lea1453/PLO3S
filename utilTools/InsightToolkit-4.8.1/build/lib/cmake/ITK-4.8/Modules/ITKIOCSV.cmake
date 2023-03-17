@@ -1,0 +1,6 @@
+set(ITKIOCSV_LOADED 1)
+set(ITKIOCSV_DEPENDS "ITKIOImageBase")
+set(ITKIOCSV_LIBRARIES "ITKIOCSV")
+set(ITKIOCSV_INCLUDE_DIRS "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/CSV/include")
+set(ITKIOCSV_LIBRARY_DIRS "")
+

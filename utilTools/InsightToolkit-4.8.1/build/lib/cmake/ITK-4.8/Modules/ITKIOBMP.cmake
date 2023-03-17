@@ -1,0 +1,6 @@
+set(ITKIOBMP_LOADED 1)
+set(ITKIOBMP_DEPENDS "ITKIOImageBase")
+set(ITKIOBMP_LIBRARIES "ITKIOBMP")
+set(ITKIOBMP_INCLUDE_DIRS "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/BMP/include")
+set(ITKIOBMP_LIBRARY_DIRS "")
+

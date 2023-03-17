@@ -1,0 +1,6 @@
+set(ITKGPUPDEDeformableRegistration_LOADED 1)
+set(ITKGPUPDEDeformableRegistration_DEPENDS "ITKCommon;ITKGPUCommon;ITKGPUFiniteDifference;ITKGPURegistrationCommon;ITKPDEDeformableRegistration")
+set(ITKGPUPDEDeformableRegistration_LIBRARIES "ITKCommon;ITKStatistics;ITKSpatialObjects;ITKPath;ITKOptimizers")
+set(ITKGPUPDEDeformableRegistration_INCLUDE_DIRS "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Registration/GPUPDEDeformable/include")
+set(ITKGPUPDEDeformableRegistration_LIBRARY_DIRS "")
+

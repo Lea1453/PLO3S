@@ -1,0 +1,6 @@
+set(ITKIOGE_LOADED 1)
+set(ITKIOGE_DEPENDS "ITKIOIPL")
+set(ITKIOGE_LIBRARIES "ITKIOGE")
+set(ITKIOGE_INCLUDE_DIRS "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/GE/include")
+set(ITKIOGE_LIBRARY_DIRS "")
+

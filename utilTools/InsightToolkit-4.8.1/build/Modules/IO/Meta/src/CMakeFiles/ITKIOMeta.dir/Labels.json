@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Meta/src/itkMetaArrayWriter.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Meta/src/itkMetaImageIO.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Meta/src/itkMetaArrayReader.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Meta/src/itkMetaImageIOFactory.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOMeta"
+		],
+		"name" : "ITKIOMeta"
+	}
+}

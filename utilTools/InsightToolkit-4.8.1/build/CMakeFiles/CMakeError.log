@@ -1,0 +1,1897 @@
+Performing C SOURCE FILE Test C_HAS_WARNING-Wno-long-double failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_20b71/fast"
+/usr/bin/make -f CMakeFiles/cmTC_20b71.dir/build.make CMakeFiles/cmTC_20b71.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20b71.dir/src.c.o
+/usr/bin/cc    -DC_HAS_WARNING-Wno-long-double   -Wno-long-double -o CMakeFiles/cmTC_20b71.dir/src.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/src.c
+<command-line>:0:14: warning: ISO C99 requires whitespace after the macro name
+cc1: warning: unrecognized command line option ‘-Wno-long-double’
+Linking C executable cmTC_20b71
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20b71.dir/link.txt --verbose=1
+/usr/bin/cc   -DC_HAS_WARNING-Wno-long-double    CMakeFiles/cmTC_20b71.dir/src.c.o  -o cmTC_20b71 -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_HAS_WARNING-Wno-long-double failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe1e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe1e9.dir/build.make CMakeFiles/cmTC_fe1e9.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fe1e9.dir/src.cxx.o
+/usr/bin/c++     -DCXX_HAS_WARNING-Wno-long-double   -Wno-long-double -o CMakeFiles/cmTC_fe1e9.dir/src.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:16: warning: missing whitespace after the macro name
+cc1plus: warning: unrecognized command line option ‘-Wno-long-double’
+Linking CXX executable cmTC_fe1e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe1e9.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXX_HAS_WARNING-Wno-long-double    CMakeFiles/cmTC_fe1e9.dir/src.cxx.o  -o cmTC_fe1e9 -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_HAS_DISABLE_OPTIMIZATION_FLAG failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79e59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_79e59.dir/build.make CMakeFiles/cmTC_79e59.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_79e59.dir/src.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel -DCXX_HAS_DISABLE_OPTIMIZATION_FLAG   -o CMakeFiles/cmTC_79e59.dir/src.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/src.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/src.cxx:1:1: error: expected unqualified-id before ‘-’ token
+ -O0
+ ^
+CMakeFiles/cmTC_79e59.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_79e59.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_79e59.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_79e59/fast' failed
+make: *** [cmTC_79e59/fast] Error 2
+
+Source file was:
+-O0
+Checking for non-standard argument to stl allocator<>::max_size failed to compile with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b4e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b4e7.dir/build.make CMakeFiles/cmTC_7b4e7.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7b4e7.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DKWSYS_STL_HAVE_STD=1 -DTEST_KWSYS_STL_HAS_ALLOCATOR_MAX_SIZE_ARGUMENT  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w    -o CMakeFiles/cmTC_7b4e7.dir/kwsysPlatformTestsCXX.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx: In function ‘void f(const std::allocator<char>&)’:
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:256:25: error: no matching function for call to ‘std::allocator<char>::max_size(long unsigned int) const’
+   a.max_size(sizeof(int));
+                         ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h:33:0,
+                 from /usr/include/c++/5/bits/allocator.h:46,
+                 from /usr/include/c++/5/memory:63,
+                 from /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:253:
+/usr/include/c++/5/ext/new_allocator.h:113:7: note: candidate: __gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = char; __gnu_cxx::new_allocator<_Tp>::size_type = long unsigned int]
+       max_size() const _GLIBCXX_USE_NOEXCEPT
+       ^
+/usr/include/c++/5/ext/new_allocator.h:113:7: note:   candidate expects 0 arguments, 1 provided
+CMakeFiles/cmTC_7b4e7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7b4e7.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7b4e7.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7b4e7/fast' failed
+make: *** [cmTC_7b4e7/fast] Error 2
+
+
+Checking whether "<>" is needed for template friends failed to compile with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b16ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b16ac.dir/build.make CMakeFiles/cmTC_b16ac.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b16ac.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_HAS_NULL_TEMPLATE_ARGS  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w    -o CMakeFiles/cmTC_b16ac.dir/kwsysPlatformTestsCXX.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx: In instantiation of ‘int f(A<T>&) [with T = int]’:
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:147:23:   required from here
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:143:7: error: ‘int A<int>::x’ is private
+   int x;
+       ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:146:48: error: within this context
+ template <class T> int f(A<T>& a) { return a.x = 0; }
+                                                ^
+CMakeFiles/cmTC_b16ac.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b16ac.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b16ac.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b16ac/fast' failed
+make: *** [cmTC_b16ac/fast] Error 2
+
+
+Checking whether C++ compiler has '__int64' failed to compile with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_324f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_324f9.dir/build.make CMakeFiles/cmTC_324f9.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_324f9.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_HAS___INT64  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w    -o CMakeFiles/cmTC_324f9.dir/kwsysPlatformTestsCXX.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:126:1: error: ‘__int64’ does not name a type
+ __int64 f(__int64 n) { return n; }
+ ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:129:3: error: ‘__int64’ was not declared in this scope
+   __int64 n = 0;
+   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:130:29: error: ‘n’ was not declared in this scope
+   return static_cast<int>(f(n));
+                             ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:130:30: error: ‘f’ was not declared in this scope
+   return static_cast<int>(f(n));
+                              ^
+CMakeFiles/cmTC_324f9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_324f9.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_324f9.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_324f9/fast' failed
+make: *** [cmTC_324f9/fast] Error 2
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4acf9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4acf9.dir/build.make CMakeFiles/cmTC_4acf9.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4acf9.dir/KWSYS_SIZEOF___INT64.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_4acf9.dir/KWSYS_SIZEOF___INT64.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CheckTypeSize/KWSYS_SIZEOF___INT64.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CheckTypeSize/KWSYS_SIZEOF___INT64.c:17:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CheckTypeSize/KWSYS_SIZEOF___INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTC_4acf9.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4acf9.dir/KWSYS_SIZEOF___INT64.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4acf9.dir/KWSYS_SIZEOF___INT64.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4acf9/fast' failed
+make: *** [cmTC_4acf9/fast] Error 2
+
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CheckTypeSize/KWSYS_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7141a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7141a.dir/build.make CMakeFiles/cmTC_7141a.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7141a.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w    -o CMakeFiles/cmTC_7141a.dir/kwsysPlatformTestsCXX.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:450:13: error: ‘environ’ was not declared in this scope
+   char* e = environ[0];
+             ^
+CMakeFiles/cmTC_7141a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7141a.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7141a.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7141a/fast' failed
+make: *** [cmTC_7141a/fast] Error 2
+
+
+Checking whether CXX compiler has _atoi64 failed to compile with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d541/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d541.dir/build.make CMakeFiles/cmTC_7d541.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d541.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++   -DTEST_KWSYS_CXX_HAS__ATOI64  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w    -o CMakeFiles/cmTC_7d541.dir/kwsysPlatformTestsCXX.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx: In function ‘int main()’:
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/kwsysPlatformTestsCXX.cxx:493:38: error: ‘_atoi64’ was not declared in this scope
+   return static_cast<int>(_atoi64(str));
+                                      ^
+CMakeFiles/cmTC_7d541.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7d541.dir/kwsysPlatformTestsCXX.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7d541.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/KWSys/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7d541/fast' failed
+make: *** [cmTC_7d541/fast] Error 2
+
+
+Performing Test VCL_STATIC_CONST_INIT_NO_DEFN failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18210/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18210.dir/build.make CMakeFiles/cmTC_18210.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18210.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_STATIC_CONST_INIT_NO_DEFN   -o CMakeFiles/cmTC_18210.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_18210
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18210.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_STATIC_CONST_INIT_NO_DEFN  -fuse-ld=gold    CMakeFiles/cmTC_18210.dir/vxl_platform_tests.cxx.o  -o cmTC_18210 -rdynamic 
+CMakeFiles/cmTC_18210.dir/vxl_platform_tests.cxx.o:vxl_platform_tests.cxx:function main: error: undefined reference to 'A::x'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_18210.dir/build.make:97: recipe for target 'cmTC_18210' failed
+make[1]: *** [cmTC_18210] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_18210/fast' failed
+make: *** [cmTC_18210/fast] Error 2
+
+Performing Test VCL_OVERLOAD_CAST failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18e6e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_18e6e.dir/build.make CMakeFiles/cmTC_18e6e.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18e6e.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_OVERLOAD_CAST   -o CMakeFiles/cmTC_18e6e.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx: In constructor ‘vnl_vector_fixed<n, T>::vnl_vector_fixed()’:
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:380:41: error: ‘data_fixed’ was not declared in this scope
+   vnl_vector_fixed() : vnl_vector<T>(n, data_fixed) {}
+                                         ^
+CMakeFiles/cmTC_18e6e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_18e6e.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_18e6e.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_18e6e/fast' failed
+make: *** [cmTC_18e6e/fast] Error 2
+
+Performing Test VCL_NULL_TMPL_ARGS failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_905f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_905f3.dir/build.make CMakeFiles/cmTC_905f3.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_905f3.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_NULL_TMPL_ARGS   -o CMakeFiles/cmTC_905f3.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx: In instantiation of ‘T dot(const victor<T>&, const victor<T>&) [with T = double]’:
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:439:67:   required from here
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:428:11: error: ‘double victor<double>::data [3]’ is private
+   T data[3];
+           ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:434:11: error: within this context
+     u.data[0] * v.data[0] +
+           ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:428:11: error: ‘double victor<double>::data [3]’ is private
+   T data[3];
+           ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:434:23: error: within this context
+     u.data[0] * v.data[0] +
+                       ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:428:11: error: ‘double victor<double>::data [3]’ is private
+   T data[3];
+           ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:435:11: error: within this context
+     u.data[1] * v.data[1] +
+           ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:428:11: error: ‘double victor<double>::data [3]’ is private
+   T data[3];
+           ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:435:23: error: within this context
+     u.data[1] * v.data[1] +
+                       ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:428:11: error: ‘double victor<double>::data [3]’ is private
+   T data[3];
+           ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:436:11: error: within this context
+     u.data[2] * v.data[2];
+           ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:428:11: error: ‘double victor<double>::data [3]’ is private
+   T data[3];
+           ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:436:23: error: within this context
+     u.data[2] * v.data[2];
+                       ^
+CMakeFiles/cmTC_905f3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_905f3.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_905f3.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_905f3/fast' failed
+make: *** [cmTC_905f3/fast] Error 2
+
+Performing Try-Run Test VCL_HAS_TEMPLATE_SYMBOLS failed to compile with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a78d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a78d.dir/build.make CMakeFiles/cmTC_8a78d.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8a78d.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_HAS_TEMPLATE_SYMBOLS   -o CMakeFiles/cmTC_8a78d.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_8a78d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a78d.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_HAS_TEMPLATE_SYMBOLS  -fuse-ld=gold    CMakeFiles/cmTC_8a78d.dir/vxl_platform_tests.cxx.o  -o cmTC_8a78d -rdynamic 
+CMakeFiles/cmTC_8a78d.dir/vxl_platform_tests.cxx.o:vxl_platform_tests.cxx:function caller(): error: undefined reference to 'void function<double>(double*, int)'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8a78d.dir/build.make:97: recipe for target 'cmTC_8a78d' failed
+make[1]: *** [cmTC_8a78d] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8a78d/fast' failed
+make: *** [cmTC_8a78d/fast] Error 2
+
+Performing Test VCL_NEEDS_NAMESPACE_STD failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06475/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06475.dir/build.make CMakeFiles/cmTC_06475.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06475.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_NEEDS_NAMESPACE_STD   -o CMakeFiles/cmTC_06475.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx: In function ‘void function()’:
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:792:3: error: ‘vector’ was not declared in this scope
+   vector<double> flaz; // correct should be:  std::vector<double>
+   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:792:3: note: suggested alternative:
+In file included from /usr/include/c++/5/vector:64:0,
+                 from /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:789:
+/usr/include/c++/5/bits/stl_vector.h:214:11: note:   ‘std::vector’
+     class vector : protected _Vector_base<_Tp, _Alloc>
+           ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:792:10: error: expected primary-expression before ‘double’
+   vector<double> flaz; // correct should be:  std::vector<double>
+          ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:793:3: error: ‘flaz’ was not declared in this scope
+   flaz.push_back(sqrt(2.0));   // should be:  std::sqrt(2.0)
+   ^
+CMakeFiles/cmTC_06475.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_06475.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_06475.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_06475/fast' failed
+make: *** [cmTC_06475/fast] Error 2
+
+Performing Test VCL_HAS_SLICED_DESTRUCTOR_BUG succeeded with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35eb0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35eb0.dir/build.make CMakeFiles/cmTC_35eb0.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35eb0.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_HAS_SLICED_DESTRUCTOR_BUG   -o CMakeFiles/cmTC_35eb0.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_35eb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35eb0.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_HAS_SLICED_DESTRUCTOR_BUG  -fuse-ld=gold    CMakeFiles/cmTC_35eb0.dir/vxl_platform_tests.cxx.o  -o cmTC_35eb0 -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+Performing Test VCL_HAS_WORKING_STRINGSTREAM succeeded with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39694/fast"
+/usr/bin/make -f CMakeFiles/cmTC_39694.dir/build.make CMakeFiles/cmTC_39694.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39694.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_HAS_WORKING_STRINGSTREAM   -o CMakeFiles/cmTC_39694.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_39694
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39694.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_HAS_WORKING_STRINGSTREAM  -fuse-ld=gold    CMakeFiles/cmTC_39694.dir/vxl_platform_tests.cxx.o  -o cmTC_39694 -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+Performing Test VCL_HAS_LFS succeeded with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7cfa4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7cfa4.dir/build.make CMakeFiles/cmTC_7cfa4.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7cfa4.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_HAS_LFS   -o CMakeFiles/cmTC_7cfa4.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_7cfa4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cfa4.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_HAS_LFS  -fuse-ld=gold    CMakeFiles/cmTC_7cfa4.dir/vxl_platform_tests.cxx.o  -o cmTC_7cfa4 -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+Performing Test VXL_HAS_DBGHELP_H failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ed33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ed33.dir/build.make CMakeFiles/cmTC_7ed33.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ed33.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_DBGHELP_H   -o CMakeFiles/cmTC_7ed33.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1119:21: fatal error: Windows.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_7ed33.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7ed33.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7ed33.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7ed33/fast' failed
+make: *** [cmTC_7ed33/fast] Error 2
+
+Determining if the include file ieeefp.h exists failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b793c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b793c.dir/build.make CMakeFiles/cmTC_b793c.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b793c.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w    -o CMakeFiles/cmTC_b793c.dir/CheckIncludeFile.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:20: fatal error: ieeefp.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_b793c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b793c.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b793c.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b793c/fast' failed
+make: *** [cmTC_b793c/fast] Error 2
+
+
+Determining if the std::shared_ptr<void> exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7be3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7be3.dir/build.make CMakeFiles/cmTC_c7be3.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c7be3.dir/CheckTypeExists.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w    -o CMakeFiles/cmTC_c7be3.dir/CheckTypeExists.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp/CheckTypeExists.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp/CheckTypeExists.cxx:4:30: error: variable or field ‘cmakeRequireSymbol’ declared void
+ void cmakeRequireSymbol(std::shared_ptr<void> dummy){(void)dummy;}
+                              ^
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp/CheckTypeExists.cxx:4:25: error: ‘shared_ptr’ is not a member of ‘std’
+ void cmakeRequireSymbol(std::shared_ptr<void> dummy){(void)dummy;}
+                         ^
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp/CheckTypeExists.cxx:4:41: error: expected primary-expression before ‘void’
+ void cmakeRequireSymbol(std::shared_ptr<void> dummy){(void)dummy;}
+                                         ^
+CMakeFiles/cmTC_c7be3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c7be3.dir/CheckTypeExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c7be3.dir/CheckTypeExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c7be3/fast' failed
+make: *** [cmTC_c7be3/fast] Error 2
+
+File /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp/CheckTypeExists.c:
+/* */
+#include <memory>
+
+void cmakeRequireSymbol(std::shared_ptr<void> dummy){(void)dummy;}
+int main()
+{return 0;
+}
+
+Performing Test VXL_HAS_SSE2_HARDWARE_SUPPORT succeeded with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_667a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_667a6.dir/build.make CMakeFiles/cmTC_667a6.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_667a6.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_SSE2_HARDWARE_SUPPORT   -o CMakeFiles/cmTC_667a6.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_667a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_667a6.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_SSE2_HARDWARE_SUPPORT  -fuse-ld=gold    CMakeFiles/cmTC_667a6.dir/vxl_platform_tests.cxx.o  -o cmTC_667a6 -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+Performing Test VXL_HAS_ALIGNED_MALLOC failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d438/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d438.dir/build.make CMakeFiles/cmTC_1d438.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d438.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_ALIGNED_MALLOC   -o CMakeFiles/cmTC_1d438.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx: In function ‘int main()’:
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1183:47: error: ‘_aligned_malloc’ was not declared in this scope
+   void* x = _aligned_malloc(4*sizeof(float),16);
+                                               ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1184:18: error: ‘_aligned_free’ was not declared in this scope
+   _aligned_free(x);
+                  ^
+CMakeFiles/cmTC_1d438.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1d438.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1d438.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1d438/fast' failed
+make: *** [cmTC_1d438/fast] Error 2
+
+Performing Test VXL_HAS_MINGW_ALIGNED_MALLOC failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1519c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1519c.dir/build.make CMakeFiles/cmTC_1519c.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1519c.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_MINGW_ALIGNED_MALLOC   -o CMakeFiles/cmTC_1519c.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx: In function ‘int main()’:
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1195:54: error: ‘__mingw_aligned_malloc’ was not declared in this scope
+   void* x = __mingw_aligned_malloc(4*sizeof(float),16);
+                                                      ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1196:25: error: ‘__mingw_aligned_free’ was not declared in this scope
+   __mingw_aligned_free(x);
+                         ^
+CMakeFiles/cmTC_1519c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1519c.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1519c.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1519c/fast' failed
+make: *** [cmTC_1519c/fast] Error 2
+
+Performing Test VXL_HAS_POSIX_MEMALIGN failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6823/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6823.dir/build.make CMakeFiles/cmTC_d6823.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6823.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_POSIX_MEMALIGN   -o CMakeFiles/cmTC_d6823.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx: In function ‘int main()’:
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1207:40: error: ‘memalign’ was not declared in this scope
+   void* x = memalign(16,4*sizeof(float));
+                                        ^
+CMakeFiles/cmTC_d6823.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d6823.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d6823.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d6823/fast' failed
+make: *** [cmTC_d6823/fast] Error 2
+
+Performing Test VCL_COMPLEX_POW_WORKS succeeded with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b1e24/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1e24.dir/build.make CMakeFiles/cmTC_b1e24.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1e24.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_COMPLEX_POW_WORKS   -o CMakeFiles/cmTC_b1e24.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_b1e24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1e24.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_COMPLEX_POW_WORKS  -fuse-ld=gold    CMakeFiles/cmTC_b1e24.dir/vxl_platform_tests.cxx.o  -o cmTC_b1e24 -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+Determining if the finite exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_790db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_790db.dir/build.make CMakeFiles/cmTC_790db.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_790db.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_790db.dir/CheckSymbolExists.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:20: fatal error: ieeefp.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_790db.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_790db.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_790db.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_790db/fast' failed
+make: *** [cmTC_790db/fast] Error 2
+
+File /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ieeefp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef finite
+  return ((int*)(&finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a16d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a16d6.dir/build.make CMakeFiles/cmTC_a16d6.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a16d6.dir/TestEndianess.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_a16d6.dir/TestEndianess.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_a16d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a16d6.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w   -fuse-ld=gold    CMakeFiles/cmTC_a16d6.dir/TestEndianess.c.o  -o cmTC_a16d6 -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing Test VCL_CHAR_IS_SIGNED succeeded with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c803e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c803e.dir/build.make CMakeFiles/cmTC_c803e.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c803e.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_CHAR_IS_SIGNED   -o CMakeFiles/cmTC_c803e.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_c803e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c803e.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_CHAR_IS_SIGNED  -fuse-ld=gold    CMakeFiles/cmTC_c803e.dir/vxl_platform_tests.cxx.o  -o cmTC_c803e -rdynamic -lm 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+Looking for 8-bit int. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_590f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_590f6.dir/build.make CMakeFiles/cmTC_590f6.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_590f6.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_590f6.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[8]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[16]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_590f6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_590f6.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_590f6.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_590f6/fast' failed
+make: *** [cmTC_590f6/fast] Error 2
+
+Looking for 16-bit int. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e03ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e03ac.dir/build.make CMakeFiles/cmTC_e03ac.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e03ac.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_e03ac.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[16]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[8]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_e03ac.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e03ac.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e03ac.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e03ac/fast' failed
+make: *** [cmTC_e03ac/fast] Error 2
+
+Looking for 16-bit int. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_461a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_461a7.dir/build.make CMakeFiles/cmTC_461a7.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_461a7.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_461a7.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[16]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[32]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_461a7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_461a7.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_461a7.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_461a7/fast' failed
+make: *** [cmTC_461a7/fast] Error 2
+
+Looking for 32-bit int. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e2b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e2b5.dir/build.make CMakeFiles/cmTC_7e2b5.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7e2b5.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_7e2b5.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[32]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[16]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_7e2b5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7e2b5.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7e2b5.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7e2b5/fast' failed
+make: *** [cmTC_7e2b5/fast] Error 2
+
+Looking for 32-bit int. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca379/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca379.dir/build.make CMakeFiles/cmTC_ca379.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ca379.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_ca379.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[32]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[64]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_ca379.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ca379.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ca379.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ca379/fast' failed
+make: *** [cmTC_ca379/fast] Error 2
+
+Looking for 64-bit int. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40e45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40e45.dir/build.make CMakeFiles/cmTC_40e45.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_40e45.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_40e45.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+In file included from /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1044:0:
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp/config.h:1:18: error: ‘__int64’ was not declared in this scope
+ #define THE_TYPE __int64
+                  ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1047:14: note: in expansion of macro ‘THE_TYPE’
+ double cast( THE_TYPE a, unsigned THE_TYPE b, signed THE_TYPE c )
+              ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1047:26: error: expected primary-expression before ‘unsigned’
+ double cast( THE_TYPE a, unsigned THE_TYPE b, signed THE_TYPE c )
+                          ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1047:47: error: expected primary-expression before ‘signed’
+ double cast( THE_TYPE a, unsigned THE_TYPE b, signed THE_TYPE c )
+                                               ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1047:65: error: expression list treated as compound expression in initializer [-fpermissive]
+ double cast( THE_TYPE a, unsigned THE_TYPE b, signed THE_TYPE c )
+                                                                 ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1048:1: error: expected ‘,’ or ‘;’ before ‘{’ token
+ {
+ ^
+In file included from /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1044:0:
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp/config.h:1:18: error: ‘__int64’ was not declared in this scope
+ #define THE_TYPE __int64
+                  ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:34: note: in expansion of macro ‘THE_TYPE’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+                                  ^
+CMakeFiles/cmTC_40e45.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_40e45.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_40e45.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_40e45/fast' failed
+make: *** [cmTC_40e45/fast] Error 2
+
+Looking for 32-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea636/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea636.dir/build.make CMakeFiles/cmTC_ea636.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ea636.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_ea636.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[32]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[128]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_ea636.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ea636.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ea636.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ea636/fast' failed
+make: *** [cmTC_ea636/fast] Error 2
+
+Looking for 32-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3f1f1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f1f1.dir/build.make CMakeFiles/cmTC_3f1f1.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f1f1.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_3f1f1.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[32]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[64]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_3f1f1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3f1f1.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3f1f1.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3f1f1/fast' failed
+make: *** [cmTC_3f1f1/fast] Error 2
+
+Looking for 64-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43f63/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43f63.dir/build.make CMakeFiles/cmTC_43f63.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_43f63.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_43f63.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[64]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[32]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_43f63.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_43f63.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_43f63.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_43f63/fast' failed
+make: *** [cmTC_43f63/fast] Error 2
+
+Looking for 64-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c424/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c424.dir/build.make CMakeFiles/cmTC_0c424.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0c424.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_0c424.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[64]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[128]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_0c424.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0c424.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0c424.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0c424/fast' failed
+make: *** [cmTC_0c424/fast] Error 2
+
+Looking for 96-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_529d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_529d5.dir/build.make CMakeFiles/cmTC_529d5.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_529d5.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_529d5.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[96]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[32]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_529d5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_529d5.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_529d5.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_529d5/fast' failed
+make: *** [cmTC_529d5/fast] Error 2
+
+Looking for 96-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e43db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e43db.dir/build.make CMakeFiles/cmTC_e43db.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e43db.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_e43db.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[96]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[64]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_e43db.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e43db.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e43db.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e43db/fast' failed
+make: *** [cmTC_e43db/fast] Error 2
+
+Looking for 96-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9de6d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9de6d.dir/build.make CMakeFiles/cmTC_9de6d.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9de6d.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_9de6d.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[96]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[128]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_9de6d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9de6d.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9de6d.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9de6d/fast' failed
+make: *** [cmTC_9de6d/fast] Error 2
+
+Looking for 128-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be116/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be116.dir/build.make CMakeFiles/cmTC_be116.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_be116.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_be116.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[128]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[32]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_be116.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_be116.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_be116.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_be116/fast' failed
+make: *** [cmTC_be116/fast] Error 2
+
+Looking for 128-bit float. Failed to compile with the following output:
+(FLAGS=-DVXL_HAS_TYPE_OF_SIZE)
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a4b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a4b0.dir/build.make CMakeFiles/cmTC_0a4b0.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a4b0.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++    -I/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeTmp  -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVXL_HAS_TYPE_OF_SIZE   -o CMakeFiles/cmTC_0a4b0.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1060:35: error: conflicting declaration ‘int (* verify_size)[128]’
+ extern int (*verify_size)[THE_SIZE];
+                                   ^
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx:1059:14: note: previous declaration as ‘int (* verify_size)[64]’
+ extern int (*verify_size)[sizeof(THE_TYPE) * CHAR_BIT];
+              ^
+CMakeFiles/cmTC_0a4b0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0a4b0.dir/vxl_platform_tests.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0a4b0.dir/vxl_platform_tests.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0a4b0/fast' failed
+make: *** [cmTC_0a4b0/fast] Error 2
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1df5e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1df5e.dir/build.make CMakeFiles/cmTC_1df5e.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1df5e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=tell   -o CMakeFiles/cmTC_1df5e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1df5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1df5e.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=tell  -fuse-ld=gold    CMakeFiles/cmTC_1df5e.dir/CheckFunctionExists.c.o  -o cmTC_1df5e -rdynamic -lm 
+CMakeFiles/cmTC_1df5e.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'tell'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1df5e.dir/build.make:97: recipe for target 'cmTC_1df5e' failed
+make[1]: *** [cmTC_1df5e] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1df5e/fast' failed
+make: *** [cmTC_1df5e/fast] Error 2
+
+
+Performing Test VCL_NUMERIC_LIMITS_HAS_INFINITY succeeded with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3b6e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3b6e.dir/build.make CMakeFiles/cmTC_e3b6e.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e3b6e.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_NUMERIC_LIMITS_HAS_INFINITY   -o CMakeFiles/cmTC_e3b6e.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_e3b6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3b6e.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_NUMERIC_LIMITS_HAS_INFINITY  -fuse-ld=gold    CMakeFiles/cmTC_e3b6e.dir/vxl_platform_tests.cxx.o  -o cmTC_e3b6e -rdynamic -lm 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+Performing Test VCL_PROCESSOR_HAS_INFINITY succeeded with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6d08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6d08.dir/build.make CMakeFiles/cmTC_c6d08.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c6d08.dir/vxl_platform_tests.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_PROCESSOR_HAS_INFINITY   -o CMakeFiles/cmTC_c6d08.dir/vxl_platform_tests.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/config/cmake/config/vxl_platform_tests.cxx
+Linking CXX executable cmTC_c6d08
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6d08.dir/link.txt --verbose=1
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -w -DVCL_PROCESSOR_HAS_INFINITY  -fuse-ld=gold    CMakeFiles/cmTC_c6d08.dir/vxl_platform_tests.cxx.o  -o cmTC_c6d08 -rdynamic -lm 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb3c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb3c9.dir/build.make CMakeFiles/cmTC_fb3c9.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb3c9.dir/TestEndianess.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow     -o CMakeFiles/cmTC_fb3c9.dir/TestEndianess.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_fb3c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb3c9.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow    -fuse-ld=gold    CMakeFiles/cmTC_fb3c9.dir/TestEndianess.c.o  -o cmTC_fb3c9 -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0eeb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0eeb3.dir/build.make CMakeFiles/cmTC_0eeb3.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0eeb3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow     -o CMakeFiles/cmTC_0eeb3.dir/CheckSymbolExists.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0eeb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0eeb3.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow    -fuse-ld=gold    CMakeFiles/cmTC_0eeb3.dir/CheckSymbolExists.c.o  -o cmTC_0eeb3 -rdynamic 
+CMakeFiles/cmTC_0eeb3.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0eeb3.dir/build.make:97: recipe for target 'cmTC_0eeb3' failed
+make[1]: *** [cmTC_0eeb3] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0eeb3/fast' failed
+make: *** [cmTC_0eeb3/fast] Error 2
+
+File /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8b23/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8b23.dir/build.make CMakeFiles/cmTC_a8b23.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8b23.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a8b23.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a8b23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8b23.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -DCHECK_FUNCTION_EXISTS=pthread_create  -fuse-ld=gold    CMakeFiles/cmTC_a8b23.dir/CheckFunctionExists.c.o  -o cmTC_a8b23 -rdynamic -lpthreads 
+/usr/bin/ld.gold: error: cannot find -lpthreads
+CMakeFiles/cmTC_a8b23.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a8b23.dir/build.make:97: recipe for target 'cmTC_a8b23' failed
+make[1]: *** [cmTC_a8b23] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a8b23/fast' failed
+make: *** [cmTC_a8b23/fast] Error 2
+
+
+Determining if the include file type_traits exists failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4b1e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4b1e.dir/build.make CMakeFiles/cmTC_a4b1e.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a4b1e.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel     -o CMakeFiles/cmTC_a4b1e.dir/CheckIncludeFile.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /usr/include/c++/5/type_traits:35:0,
+                 from /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/usr/include/c++/5/bits/c++0x_warning.h:32:2: error: #error This file requires compiler and library support for the ISO C++ 2011 standard. This support must be enabled with the -std=c++11 or -std=gnu++11 compiler options.
+ #error This file requires compiler and library support \
+  ^
+CMakeFiles/cmTC_a4b1e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a4b1e.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a4b1e.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a4b1e/fast' failed
+make: *** [cmTC_a4b1e/fast] Error 2
+
+
+Determining if files sys/time.h;winsock.h exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d948/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d948.dir/build.make CMakeFiles/cmTC_9d948.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d948.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -fno-ipa-cp-clone    -o CMakeFiles/cmTC_9d948.dir/CheckIncludeFiles.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:3:21: fatal error: winsock.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_9d948.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9d948.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_9d948.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9d948/fast' failed
+make: *** [cmTC_9d948/fast] Error 2
+
+Source:
+/* */
+#include <sys/time.h>
+#include <winsock.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file rpc.h exists failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5dc2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5dc2.dir/build.make CMakeFiles/cmTC_a5dc2.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5dc2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -fno-ipa-cp-clone    -o CMakeFiles/cmTC_a5dc2.dir/CheckIncludeFile.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:17: fatal error: rpc.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_a5dc2.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a5dc2.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_a5dc2.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a5dc2/fast' failed
+make: *** [cmTC_a5dc2/fast] Error 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c5d2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5d2b.dir/build.make CMakeFiles/cmTC_c5d2b.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5d2b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -fno-ipa-cp-clone -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTC_c5d2b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c5d2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5d2b.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -fno-ipa-cp-clone -DCHECK_FUNCTION_EXISTS=_stricmp  -fuse-ld=gold    CMakeFiles/cmTC_c5d2b.dir/CheckFunctionExists.c.o  -o cmTC_c5d2b -rdynamic 
+CMakeFiles/cmTC_c5d2b.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to '_stricmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c5d2b.dir/build.make:97: recipe for target 'cmTC_c5d2b' failed
+make[1]: *** [cmTC_c5d2b] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c5d2b/fast' failed
+make: *** [cmTC_c5d2b/fast] Error 2
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d34a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d34a5.dir/build.make CMakeFiles/cmTC_d34a5.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d34a5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -fno-ipa-cp-clone -DCHECK_FUNCTION_EXISTS=_strnicmp   -o CMakeFiles/cmTC_d34a5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d34a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d34a5.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -fno-ipa-cp-clone -DCHECK_FUNCTION_EXISTS=_strnicmp  -fuse-ld=gold    CMakeFiles/cmTC_d34a5.dir/CheckFunctionExists.c.o  -o cmTC_d34a5 -rdynamic 
+CMakeFiles/cmTC_d34a5.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to '_strnicmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d34a5.dir/build.make:97: recipe for target 'cmTC_d34a5' failed
+make[1]: *** [cmTC_d34a5] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d34a5/fast' failed
+make: *** [cmTC_d34a5/fast] Error 2
+
+
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9d5f5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d5f5.dir/build.make CMakeFiles/cmTC_9d5f5.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d5f5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -fno-ipa-cp-clone -DCHECK_FUNCTION_EXISTS=_snprintf   -o CMakeFiles/cmTC_9d5f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9d5f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d5f5.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -fno-ipa-cp-clone -DCHECK_FUNCTION_EXISTS=_snprintf  -fuse-ld=gold    CMakeFiles/cmTC_9d5f5.dir/CheckFunctionExists.c.o  -o cmTC_9d5f5 -rdynamic 
+CMakeFiles/cmTC_9d5f5.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to '_snprintf'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9d5f5.dir/build.make:97: recipe for target 'cmTC_9d5f5' failed
+make[1]: *** [cmTC_9d5f5] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9d5f5/fast' failed
+make: *** [cmTC_9d5f5/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test GDCM_HAVE_WCHAR_IFSTREAM failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccd0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccd0a.dir/build.make CMakeFiles/cmTC_ccd0a.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ccd0a.dir/src.cxx.o
+/usr/bin/c++     -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow -Wno-deprecated -Wno-invalid-offsetof -Woverloaded-virtual -Wstrict-null-sentinel  -w -fno-ipa-cp-clone -DGDCM_HAVE_WCHAR_IFSTREAM   -o CMakeFiles/cmTC_ccd0a.dir/src.cxx.o -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/src.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/src.cxx:2:62: error: no matching function for call to ‘std::basic_ifstream<char>::basic_ifstream(const wchar_t [10])’
+ int main() { const wchar_t fn[10] = {}; std::ifstream is( fn ); return 0;}
+                                                              ^
+In file included from /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/src.cxx:1:0:
+/usr/include/c++/5/fstream:495:7: note: candidate: std::basic_ifstream<_CharT, _Traits>::basic_ifstream(const char*, std::ios_base::openmode) [with _CharT = char; _Traits = std::char_traits<char>; std::ios_base::openmode = std::_Ios_Openmode]
+       basic_ifstream(const char* __s, ios_base::openmode __mode = ios_base::in)
+       ^
+/usr/include/c++/5/fstream:495:7: note:   no known conversion for argument 1 from ‘const wchar_t [10]’ to ‘const char*’
+/usr/include/c++/5/fstream:481:7: note: candidate: std::basic_ifstream<_CharT, _Traits>::basic_ifstream() [with _CharT = char; _Traits = std::char_traits<char>]
+       basic_ifstream() : __istream_type(), _M_filebuf()
+       ^
+/usr/include/c++/5/fstream:481:7: note:   candidate expects 0 arguments, 1 provided
+/usr/include/c++/5/fstream:455:11: note: candidate: std::basic_ifstream<char>::basic_ifstream(const std::basic_ifstream<char>&)
+     class basic_ifstream : public basic_istream<_CharT, _Traits>
+           ^
+/usr/include/c++/5/fstream:455:11: note:   no known conversion for argument 1 from ‘const wchar_t [10]’ to ‘const std::basic_ifstream<char>&’
+CMakeFiles/cmTC_ccd0a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ccd0a.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ccd0a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ccd0a/fast' failed
+make: *** [cmTC_ccd0a/fast] Error 2
+
+Source file was:
+#include <fstream>
+int main() { const wchar_t fn[10] = {}; std::ifstream is( fn ); return 0;}
+Determining if files stdlib.h;unistd.h;inttypes.h;sys/ioctl.h;sys/time.h;sys/file.h;sys/socket.h;sys/sockio.h exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25ab4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25ab4.dir/build.make CMakeFiles/cmTC_25ab4.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25ab4.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -fno-ipa-cp-clone    -o CMakeFiles/cmTC_25ab4.dir/CheckIncludeFiles.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:9:24: fatal error: sys/sockio.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_25ab4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_25ab4.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_25ab4.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_25ab4/fast' failed
+make: *** [cmTC_25ab4/fast] Error 2
+
+Source:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/time.h>
+#include <sys/file.h>
+#include <sys/socket.h>
+#include <sys/sockio.h>
+
+
+int main(void){return 0;}
+
+Determining if files stdlib.h;unistd.h;inttypes.h;sys/ioctl.h;sys/time.h;sys/file.h;sys/socket.h;net/if.h;netinet/in.h;net/if_dl.h exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58df6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58df6.dir/build.make CMakeFiles/cmTC_58df6.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58df6.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -fno-ipa-cp-clone    -o CMakeFiles/cmTC_58df6.dir/CheckIncludeFiles.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:11:23: fatal error: net/if_dl.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_58df6.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_58df6.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_58df6.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_58df6/fast' failed
+make: *** [cmTC_58df6/fast] Error 2
+
+Source:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+#include <inttypes.h>
+#include <sys/ioctl.h>
+#include <sys/time.h>
+#include <sys/file.h>
+#include <sys/socket.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <net/if_dl.h>
+
+
+int main(void){return 0;}
+
+Determining if the function WSAStartup exists in the ws2_32;m failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_08806/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08806.dir/build.make CMakeFiles/cmTC_08806.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08806.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=WSAStartup   -o CMakeFiles/cmTC_08806.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_08806
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08806.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=WSAStartup    CMakeFiles/cmTC_08806.dir/CheckFunctionExists.c.o  -o cmTC_08806 -rdynamic -lws2_32 -lm 
+/usr/bin/ld: cannot find -lws2_32
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_08806.dir/build.make:97: recipe for target 'cmTC_08806' failed
+make[1]: *** [cmTC_08806] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_08806/fast' failed
+make: *** [cmTC_08806/fast] Error 2
+
+
+Determining if the function gethostbyname exists in the wsock32;m failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d31b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d31b0.dir/build.make CMakeFiles/cmTC_d31b0.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d31b0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_d31b0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d31b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d31b0.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_d31b0.dir/CheckFunctionExists.c.o  -o cmTC_d31b0 -rdynamic -lwsock32 -lm 
+/usr/bin/ld: cannot find -lwsock32
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d31b0.dir/build.make:97: recipe for target 'cmTC_d31b0' failed
+make[1]: *** [cmTC_d31b0] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d31b0/fast' failed
+make: *** [cmTC_d31b0/fast] Error 2
+
+
+Determining if the function gethostname exists in the ucb;m failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a1e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a1e7.dir/build.make CMakeFiles/cmTC_8a1e7.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a1e7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=gethostname   -o CMakeFiles/cmTC_8a1e7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8a1e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a1e7.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=gethostname    CMakeFiles/cmTC_8a1e7.dir/CheckFunctionExists.c.o  -o cmTC_8a1e7 -rdynamic -lucb -lm 
+/usr/bin/ld: cannot find -lucb
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8a1e7.dir/build.make:97: recipe for target 'cmTC_8a1e7' failed
+make[1]: *** [cmTC_8a1e7] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8a1e7/fast' failed
+make: *** [cmTC_8a1e7/fast] Error 2
+
+
+Determining if the function connect exists in the socket;m failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3fcd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3fcd.dir/build.make CMakeFiles/cmTC_c3fcd.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3fcd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_c3fcd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3fcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3fcd.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_c3fcd.dir/CheckFunctionExists.c.o  -o cmTC_c3fcd -rdynamic -lsocket -lm 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c3fcd.dir/build.make:97: recipe for target 'cmTC_c3fcd' failed
+make[1]: *** [cmTC_c3fcd] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c3fcd/fast' failed
+make: *** [cmTC_c3fcd/fast] Error 2
+
+
+Determining if files ;globus/common.h exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ddf0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ddf0.dir/build.make CMakeFiles/cmTC_3ddf0.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ddf0.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_3ddf0.dir/CheckIncludeFiles.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:27: fatal error: globus/common.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_3ddf0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3ddf0.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_3ddf0.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3ddf0/fast' failed
+make: *** [cmTC_3ddf0/fast] Error 2
+
+Source:
+/* */
+#include <globus/common.h>
+
+
+int main(void){return 0;}
+
+Determining if files ;io.h exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6cdb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6cdb.dir/build.make CMakeFiles/cmTC_f6cdb.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6cdb.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_f6cdb.dir/CheckIncludeFiles.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:16: fatal error: io.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_f6cdb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f6cdb.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f6cdb.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f6cdb/fast' failed
+make: *** [cmTC_f6cdb/fast] Error 2
+
+Source:
+/* */
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if files ;mfhdf.h exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1c843/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1c843.dir/build.make CMakeFiles/cmTC_1c843.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c843.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_1c843.dir/CheckIncludeFiles.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:19: fatal error: mfhdf.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_1c843.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1c843.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1c843.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1c843/fast' failed
+make: *** [cmTC_1c843/fast] Error 2
+
+Source:
+/* */
+#include <mfhdf.h>
+
+
+int main(void){return 0;}
+
+Determining if files ;pdb.h exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67b18/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67b18.dir/build.make CMakeFiles/cmTC_67b18.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67b18.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_67b18.dir/CheckIncludeFiles.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:17: fatal error: pdb.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_67b18.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_67b18.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_67b18.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_67b18/fast' failed
+make: *** [cmTC_67b18/fast] Error 2
+
+Source:
+/* */
+#include <pdb.h>
+
+
+int main(void){return 0;}
+
+Determining if files pthread.h;setjmp.h;srbclient.h exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0440/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0440.dir/build.make CMakeFiles/cmTC_f0440.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0440.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_f0440.dir/CheckIncludeFiles.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:4:23: fatal error: srbclient.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_f0440.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_f0440.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_f0440.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f0440/fast' failed
+make: *** [cmTC_f0440/fast] Error 2
+
+Source:
+/* */
+#include <pthread.h>
+#include <setjmp.h>
+#include <srbclient.h>
+
+
+int main(void){return 0;}
+
+Determining if files pthread.h;setjmp.h;stddef.h;stdint.h;string.h;strings.h;sys/ioctl.h;sys/proc.h exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8bc8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8bc8.dir/build.make CMakeFiles/cmTC_d8bc8.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8bc8.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_d8bc8.dir/CheckIncludeFiles.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:9:22: fatal error: sys/proc.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_d8bc8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d8bc8.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d8bc8.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d8bc8/fast' failed
+make: *** [cmTC_d8bc8/fast] Error 2
+
+Source:
+/* */
+#include <pthread.h>
+#include <setjmp.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/proc.h>
+
+
+int main(void){return 0;}
+
+Determining if files pthread.h;setjmp.h;stddef.h;stdint.h;string.h;strings.h;sys/ioctl.h;sys/resource.h;sys/socket.h;sys/stat.h;sys/time.h;time.h;sys/timeb.h;sys/types.h;unistd.h;stdlib.h;memory.h;dlfcn.h;features.h;inttypes.h;netinet/in.h;winsock2.h exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35cf8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35cf8.dir/build.make CMakeFiles/cmTC_35cf8.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35cf8.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_35cf8.dir/CheckIncludeFiles.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:23:22: fatal error: winsock2.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_35cf8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_35cf8.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_35cf8.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_35cf8/fast' failed
+make: *** [cmTC_35cf8/fast] Error 2
+
+Source:
+/* */
+#include <pthread.h>
+#include <setjmp.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/resource.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <time.h>
+#include <sys/timeb.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <memory.h>
+#include <dlfcn.h>
+#include <features.h>
+#include <inttypes.h>
+#include <netinet/in.h>
+#include <winsock2.h>
+
+
+int main(void){return 0;}
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0fc3b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0fc3b.dir/build.make CMakeFiles/cmTC_0fc3b.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fc3b.dir/H5_SIZEOF___INT64.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -D_POSIX_SOURCE  -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_0fc3b.dir/H5_SIZEOF___INT64.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:17:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTC_0fc3b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0fc3b.dir/H5_SIZEOF___INT64.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_0fc3b.dir/H5_SIZEOF___INT64.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0fc3b/fast' failed
+make: *** [cmTC_0fc3b/fast] Error 2
+
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CheckTypeSize/H5_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setsysinfo exists failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_507e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_507e2.dir/build.make CMakeFiles/cmTC_507e2.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_507e2.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -D_POSIX_SOURCE  -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=setsysinfo   -o CMakeFiles/cmTC_507e2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_507e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_507e2.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=setsysinfo    CMakeFiles/cmTC_507e2.dir/CheckFunctionExists.c.o  -o cmTC_507e2 -rdynamic -lm 
+CMakeFiles/cmTC_507e2.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `setsysinfo'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_507e2.dir/build.make:97: recipe for target 'cmTC_507e2' failed
+make[1]: *** [cmTC_507e2] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_507e2/fast' failed
+make: *** [cmTC_507e2/fast] Error 2
+
+
+Determining if the function sigsetjmp exists failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3bbe7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3bbe7.dir/build.make CMakeFiles/cmTC_3bbe7.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3bbe7.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_BSD_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE -D_LARGEFILE_SOURCE -D_POSIX_SOURCE  -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=sigsetjmp   -o CMakeFiles/cmTC_3bbe7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3bbe7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bbe7.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=sigsetjmp    CMakeFiles/cmTC_3bbe7.dir/CheckFunctionExists.c.o  -o cmTC_3bbe7 -rdynamic -lm 
+CMakeFiles/cmTC_3bbe7.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `sigsetjmp'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3bbe7.dir/build.make:97: recipe for target 'cmTC_3bbe7' failed
+make[1]: *** [cmTC_3bbe7] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3bbe7/fast' failed
+make: *** [cmTC_3bbe7/fast] Error 2
+
+
+Test H5_ULONG_TO_FP_BOTTOM_BIT_ACCURATE Run failed with the following output and exit code:
+ Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/HDF5/src/itkhdf5/CMake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a8eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a8eb.dir/build.make CMakeFiles/cmTC_9a8eb.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/HDF5/src/itkhdf5/CMake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a8eb.dir/ConversionTests.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DH5_ULONG_TO_FP_BOTTOM_BIT_ACCURATE_TEST   -o CMakeFiles/cmTC_9a8eb.dir/ConversionTests.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_9a8eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a8eb.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DH5_ULONG_TO_FP_BOTTOM_BIT_ACCURATE_TEST    CMakeFiles/cmTC_9a8eb.dir/ConversionTests.c.o  -o cmTC_9a8eb -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/HDF5/src/itkhdf5/CMake/CMakeFiles/CMakeTmp'
+
+Test H5_FP_TO_ULLONG_RIGHT_MAXIMUM Run failed with the following output and exit code:
+ Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/HDF5/src/itkhdf5/CMake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cded6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cded6.dir/build.make CMakeFiles/cmTC_cded6.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/HDF5/src/itkhdf5/CMake/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cded6.dir/ConversionTests.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DH5_FP_TO_ULLONG_RIGHT_MAXIMUM_TEST   -o CMakeFiles/cmTC_cded6.dir/ConversionTests.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/config/cmake/ConversionTests.c
+Linking C executable cmTC_cded6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cded6.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DH5_FP_TO_ULLONG_RIGHT_MAXIMUM_TEST    CMakeFiles/cmTC_cded6.dir/ConversionTests.c.o  -o cmTC_cded6 -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/HDF5/src/itkhdf5/CMake/CMakeFiles/CMakeTmp'
+
+Determining if files windows.h exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85498/fast"
+/usr/bin/make -f CMakeFiles/cmTC_85498.dir/build.make CMakeFiles/cmTC_85498.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85498.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_85498.dir/CheckIncludeFiles.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: fatal error: windows.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_85498.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_85498.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_85498.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_85498/fast' failed
+make: *** [cmTC_85498/fast] Error 2
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d8a71/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8a71.dir/build.make CMakeFiles/cmTC_d8a71.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8a71.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_d8a71.dir/CheckIncludeFiles.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: fatal error: ieeefp.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_d8a71.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d8a71.dir/CheckIncludeFiles.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d8a71.dir/CheckIncludeFiles.c.o] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d8a71/fast' failed
+make: *** [cmTC_d8a71/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_94e8b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94e8b.dir/build.make CMakeFiles/cmTC_94e8b.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94e8b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_94e8b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_94e8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94e8b.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=floor  -fuse-ld=gold    CMakeFiles/cmTC_94e8b.dir/CheckFunctionExists.c.o  -o cmTC_94e8b -rdynamic 
+CMakeFiles/cmTC_94e8b.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'floor'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_94e8b.dir/build.make:97: recipe for target 'cmTC_94e8b' failed
+make[1]: *** [cmTC_94e8b] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_94e8b/fast' failed
+make: *** [cmTC_94e8b/fast] Error 2
+
+
+Determining if the function pow exists failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adbe0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_adbe0.dir/build.make CMakeFiles/cmTC_adbe0.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adbe0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_adbe0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_adbe0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adbe0.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=pow  -fuse-ld=gold    CMakeFiles/cmTC_adbe0.dir/CheckFunctionExists.c.o  -o cmTC_adbe0 -rdynamic 
+CMakeFiles/cmTC_adbe0.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pow'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_adbe0.dir/build.make:97: recipe for target 'cmTC_adbe0' failed
+make[1]: *** [cmTC_adbe0] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_adbe0/fast' failed
+make: *** [cmTC_adbe0/fast] Error 2
+
+
+Determining if the function sqrt exists failed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6801c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6801c.dir/build.make CMakeFiles/cmTC_6801c.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6801c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=sqrt   -o CMakeFiles/cmTC_6801c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6801c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6801c.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w -DCHECK_FUNCTION_EXISTS=sqrt  -fuse-ld=gold    CMakeFiles/cmTC_6801c.dir/CheckFunctionExists.c.o  -o cmTC_6801c -rdynamic 
+CMakeFiles/cmTC_6801c.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'sqrt'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6801c.dir/build.make:97: recipe for target 'cmTC_6801c' failed
+make[1]: *** [cmTC_6801c] Error 1
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6801c/fast' failed
+make: *** [cmTC_6801c/fast] Error 2
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8155/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8155.dir/build.make CMakeFiles/cmTC_a8155.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8155.dir/TestEndianess.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_a8155.dir/TestEndianess.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_a8155
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8155.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w   -fuse-ld=gold    CMakeFiles/cmTC_a8155.dir/TestEndianess.c.o  -o cmTC_a8155 -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Value of the 22nd bit of a 32-bit quiet-NaN is 1TestQnanhibit.c produced following output:
+Change Dir: /home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7be30/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7be30.dir/build.make CMakeFiles/cmTC_7be30.dir/build
+make[1]: Entering directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7be30.dir/TestQnanhibit.c.o
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w    -o CMakeFiles/cmTC_7be30.dir/TestQnanhibit.c.o   -c /home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/CMake/TestQnanhibit.c
+Linking C executable cmTC_7be30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7be30.dir/link.txt --verbose=1
+/usr/bin/cc    -Wno-uninitialized -Wno-unused-parameter -Wall -Wcast-align -Wdisabled-optimization -Wextra -Wformat=2 -Winvalid-pch -Wno-format-nonliteral -Wpointer-arith -Wshadow -Wunused -Wwrite-strings -funit-at-a-time -Wno-strict-overflow  -w   -fuse-ld=gold    CMakeFiles/cmTC_7be30.dir/TestQnanhibit.c.o  -o cmTC_7be30 -rdynamic 
+make[1]: Leaving directory '/home/jeremy/kit/InsightToolkit-4.8.1/build/CMakeFiles/CMakeTmp'
+-DTEEM_QNANHIBIT=1
+
+

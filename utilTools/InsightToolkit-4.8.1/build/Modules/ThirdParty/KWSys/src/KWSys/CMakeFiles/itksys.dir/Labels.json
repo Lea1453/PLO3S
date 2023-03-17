@@ -1,0 +1,127 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/ProcessUNIX.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/Base64.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/EncodingC.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/MD5.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/System.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/Configure.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/SharedForward.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/Process.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/Base64.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/Encoding.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/FundamentalType.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/MD5.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/System.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/Directory.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/Directory.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/DynamicLoader.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/DynamicLoader.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/EncodingCXX.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/Encoding.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/Glob.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/Glob.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/RegularExpression.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/RegularExpression.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/SystemTools.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/SystemTools.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/CommandLineArguments.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/CommandLineArguments.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/FStream.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/FStream.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/KWSys/src/KWSys/SystemInformation.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/SystemInformation.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/Configure.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/String.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/hashtable.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/hash_fun.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/hash_map.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/hash_set.hxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/KWSys/src/itksys/auto_ptr.hxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKKWSys"
+		],
+		"name" : "itksys"
+	}
+}

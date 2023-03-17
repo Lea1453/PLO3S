@@ -1,0 +1,136 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/754.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/mop.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/array.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/parseAir.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/dio.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/sane.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/endianAir.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/string.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/enum.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/miscAir.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/biffbiff.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/biffmsg.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/accessors.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/defaultsNrrd.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/enumsNrrd.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/arraysNrrd.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/methodsNrrd.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/reorder.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/axis.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/simple.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/comment.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/keyvalue.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/endianNrrd.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/parseNrrd.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/gzio.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/read.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/write.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/format.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatNRRD.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/encoding.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingRaw.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingAscii.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingHex.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingGzip.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/subset.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/encodingBzip2.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatEPS.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatPNG.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatPNM.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatText.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/NrrdIO/src/NrrdIO/formatVTK.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKNrrdIO"
+		],
+		"name" : "ITKNrrdIO"
+	}
+}

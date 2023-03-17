@@ -1,0 +1,13 @@
+# Target labels
+ ITKIOImageBase
+# Source files and their labels
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/ImageBase/src/itkImageSeriesWriter.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/ImageBase/src/itkImageFileReaderException.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/ImageBase/src/itkImageFileWriter.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/ImageBase/src/itkArchetypeSeriesFileNames.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/ImageBase/src/itkImageIOFactory.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/ImageBase/src/itkIOCommon.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/ImageBase/src/itkNumericSeriesFileNames.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/ImageBase/src/itkImageIOBase.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/ImageBase/src/itkRegularExpressionSeriesFileNames.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/ImageBase/src/itkStreamingImageIOBase.cxx

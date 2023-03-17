@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/MRC/src/itkMRCHeaderObject.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/MRC/src/itkMRCImageIO.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/MRC/src/itkMRCImageIOFactory.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOMRC"
+		],
+		"name" : "ITKIOMRC"
+	}
+}

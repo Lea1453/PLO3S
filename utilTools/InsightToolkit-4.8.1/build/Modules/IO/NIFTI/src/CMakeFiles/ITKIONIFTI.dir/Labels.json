@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/NIFTI/src/itkNiftiImageIOFactory.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/NIFTI/src/itkNiftiImageIO.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIONIFTI"
+		],
+		"name" : "ITKIONIFTI"
+	}
+}

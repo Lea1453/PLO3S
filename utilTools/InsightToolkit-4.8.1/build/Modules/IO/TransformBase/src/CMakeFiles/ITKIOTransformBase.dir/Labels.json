@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/TransformBase/src/itkTransformFactoryBase.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/TransformBase/src/itkTransformFileWriterSpecializations.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOTransformBase"
+		],
+		"name" : "ITKIOTransformBase"
+	}
+}

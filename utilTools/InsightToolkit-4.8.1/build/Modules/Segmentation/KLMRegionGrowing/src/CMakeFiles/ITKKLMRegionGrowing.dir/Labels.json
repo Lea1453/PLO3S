@@ -1,0 +1,25 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Segmentation/KLMRegionGrowing/src/itkSegmentationRegion.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Segmentation/KLMRegionGrowing/src/itkKLMSegmentationRegion.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Segmentation/KLMRegionGrowing/src/itkSegmentationBorder.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Segmentation/KLMRegionGrowing/src/itkKLMSegmentationBorder.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKKLMRegionGrowing"
+		],
+		"name" : "ITKKLMRegionGrowing"
+	}
+}

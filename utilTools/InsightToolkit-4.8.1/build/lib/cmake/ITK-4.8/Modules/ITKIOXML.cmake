@@ -1,0 +1,6 @@
+set(ITKIOXML_LOADED 1)
+set(ITKIOXML_DEPENDS "ITKExpat;ITKIOImageBase")
+set(ITKIOXML_LIBRARIES "ITKIOXML")
+set(ITKIOXML_INCLUDE_DIRS "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/XML/include")
+set(ITKIOXML_LIBRARY_DIRS "")
+

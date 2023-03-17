@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^(itk|tif|fax|port|uv|tconf|t4|mk|itkjpeg|jpeg|mangle|jconfig|jmorecfg).*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/itk_tiff_mangle.h
+
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/mkg3states.c
+tif_config.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_config.h
+tif_fax3.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3.h
+
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3.h
+tiff.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tiff.h
+
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tiff.h
+itk_tiff_mangle.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/itk_tiff_mangle.h
+tif_config.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_config.h
+
+Modules/ThirdParty/KWSys/src/itksys/Configure.h
+
+Modules/ThirdParty/KWSys/src/itksys/FundamentalType.h
+itksys/Configure.h
+-
+
+Modules/ThirdParty/TIFF/src/itktiff/tif_config.h
+itksys/FundamentalType.h
+Modules/ThirdParty/TIFF/src/itktiff/itksys/FundamentalType.h
+

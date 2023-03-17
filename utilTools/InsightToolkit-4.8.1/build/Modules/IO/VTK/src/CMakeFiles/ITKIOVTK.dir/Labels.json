@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/VTK/src/itkVTKImageIOFactory.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/VTK/src/itkVTKImageIO.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKIOVTK"
+		],
+		"name" : "ITKIOVTK"
+	}
+}

@@ -1,0 +1,4 @@
+# Target labels
+ ITKPolynomials
+# Source files and their labels
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Polynomials/src/itkMultivariateLegendrePolynomial.cxx

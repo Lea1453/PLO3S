@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-#number of object of the dataset
+#Number of object of the dataset
 nb_object=$1
 
 

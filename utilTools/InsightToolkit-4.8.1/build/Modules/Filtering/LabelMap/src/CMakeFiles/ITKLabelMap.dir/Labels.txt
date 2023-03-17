@@ -1,0 +1,4 @@
+# Target labels
+ ITKLabelMap
+# Source files and their labels
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Filtering/LabelMap/src/itkGeometryUtilities.cxx

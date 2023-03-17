@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GIFTI/src/gifticlib/gifti_io.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/GIFTI/src/gifticlib/gifti_xml.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKGIFTI"
+		],
+		"name" : "ITKgiftiio"
+	}
+}

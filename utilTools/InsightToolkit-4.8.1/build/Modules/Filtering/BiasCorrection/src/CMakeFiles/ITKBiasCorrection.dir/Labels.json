@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Filtering/BiasCorrection/src/itkCompositeValleyFunction.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Filtering/BiasCorrection/src/itkCacheableScalarFunction.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKBiasCorrection"
+		],
+		"name" : "ITKBiasCorrection"
+	}
+}

@@ -1,0 +1,21 @@
+# Target labels
+ ITKDoubleConversion
+# Source files and their labels
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum.cc
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum-dtoa.cc
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/cached-powers.cc
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/diy-fp.cc
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion.cc
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fast-dtoa.cc
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fixed-dtoa.cc
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/strtod.cc
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/cached-powers.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/diy-fp.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fast-dtoa.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fixed-dtoa.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/ieee.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/strtod.h
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/utils.h
+/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion-configure.h

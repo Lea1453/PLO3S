@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_test.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_test.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_register.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_main.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_root_dir.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/testlib/testlib_root_dir.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKVNL"
+		],
+		"name" : "itktestlib"
+	}
+}

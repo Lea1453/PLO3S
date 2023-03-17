@@ -1,0 +1,39 @@
+# Target labels
+ ITKTIFF
+# Source files and their labels
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_aux.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_close.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_codec.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_compress.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_color.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_dir.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_dirinfo.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_dirread.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_dirwrite.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_dumpmode.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_error.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_extension.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_flush.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_getimage.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_luv.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_lzw.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_next.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_open.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_packbits.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_pixarlog.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_predict.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_print.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_read.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_strip.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_swab.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_tile.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_thunder.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_version.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_warning.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_write.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_zip.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_jpeg.c
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/TIFF/src/itktiff/tif_unix.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3sm.c
+/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/TIFF/src/itktiff/tif_fax3sm.c.rule

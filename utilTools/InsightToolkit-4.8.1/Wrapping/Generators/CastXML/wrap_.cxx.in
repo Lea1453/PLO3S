@@ -1,0 +1,18 @@
+@CASTXML_INCLUDES@
+
+#ifdef CABLE_CONFIGURATION
+namespace _cable_
+{
+  const char* const group = "@WRAPPER_MODULE_NAME@";
+  namespace wrappers
+  {
+    @CASTXML_TYPEDEFS@
+  }
+
+  void force_instantiate()
+  {
+    using namespace _cable_::wrappers;
+    @CASTXML_FORCE_INSTANTIATE@
+  }
+}
+#endif

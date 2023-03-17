@@ -1,0 +1,28 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMSource.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMBuffer.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMFile.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMParser.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DICOMParser/src/DICOMParser/DICOMAppHelper.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKDICOMParser"
+		],
+		"name" : "ITKDICOMParser"
+	}
+}

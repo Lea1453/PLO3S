@@ -1,0 +1,6 @@
+# Target labels
+ ITKPath
+# Source files and their labels
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Filtering/Path/src/itkChainCodePath2D.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Filtering/Path/src/itkOrthogonallyCorrected2DParametricPath.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Filtering/Path/src/itkParametricPath.cxx

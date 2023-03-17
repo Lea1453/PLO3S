@@ -1,0 +1,6 @@
+set(ITKIOLSM_LOADED 1)
+set(ITKIOLSM_DEPENDS "ITKIOTIFF")
+set(ITKIOLSM_LIBRARIES "ITKIOLSM")
+set(ITKIOLSM_INCLUDE_DIRS "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/LSM/include")
+set(ITKIOLSM_LIBRARY_DIRS "")
+

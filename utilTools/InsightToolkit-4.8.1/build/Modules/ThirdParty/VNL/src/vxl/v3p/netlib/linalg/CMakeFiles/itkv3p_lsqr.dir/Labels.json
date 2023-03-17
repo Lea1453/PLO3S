@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/v3p/netlib/linalg/lsqrBase.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/v3p/netlib/linalg/lsqrBase.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKVNL"
+		],
+		"name" : "itkv3p_lsqr"
+	}
+}

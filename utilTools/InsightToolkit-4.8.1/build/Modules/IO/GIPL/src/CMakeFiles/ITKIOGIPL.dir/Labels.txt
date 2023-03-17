@@ -1,0 +1,5 @@
+# Target labels
+ ITKIOGIPL
+# Source files and their labels
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/GIPL/src/itkGiplImageIOFactory.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/GIPL/src/itkGiplImageIO.cxx

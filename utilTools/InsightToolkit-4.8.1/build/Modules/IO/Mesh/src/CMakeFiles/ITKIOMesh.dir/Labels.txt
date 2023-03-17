@@ -1,0 +1,20 @@
+# Target labels
+ ITKIOMesh
+# Source files and their labels
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkMeshFileReaderException.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkBYUMeshIO.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkBYUMeshIOFactory.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkFreeSurferAsciiMeshIO.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkFreeSurferAsciiMeshIOFactory.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkFreeSurferBinaryMeshIO.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkFreeSurferBinaryMeshIOFactory.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkGiftiMeshIO.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkGiftiMeshIOFactory.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkMeshIOBase.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkMeshIOFactory.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkOBJMeshIO.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkOBJMeshIOFactory.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkOFFMeshIO.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkOFFMeshIOFactory.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkVTKPolyDataMeshIO.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Mesh/src/itkVTKPolyDataMeshIOFactory.cxx

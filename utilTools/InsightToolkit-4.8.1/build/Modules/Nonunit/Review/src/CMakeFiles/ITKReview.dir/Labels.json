@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Nonunit/Review/src/itkBruker2DSEQImageIO.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Nonunit/Review/src/itkBruker2DSEQImageIOFactory.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Nonunit/Review/src/itkJPEG2000ImageIO.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Nonunit/Review/src/itkJPEG2000ImageIOFactory.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Nonunit/Review/src/itkVoxBoCUBImageIO.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Nonunit/Review/src/itkVoxBoCUBImageIOFactory.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKReview"
+		],
+		"name" : "ITKReview"
+	}
+}

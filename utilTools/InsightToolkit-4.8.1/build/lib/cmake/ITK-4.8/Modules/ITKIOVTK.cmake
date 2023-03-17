@@ -1,0 +1,6 @@
+set(ITKIOVTK_LOADED 1)
+set(ITKIOVTK_DEPENDS "ITKIOImageBase")
+set(ITKIOVTK_LIBRARIES "ITKIOVTK")
+set(ITKIOVTK_INCLUDE_DIRS "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/VTK/include")
+set(ITKIOVTK_LIBRARY_DIRS "")
+

@@ -131,7 +131,7 @@ int main(int argc, char** argv)
 
       int k;
 
-      int numberFiles = argv[1]; //2 mean only 1 will be "treated"
+      int numberFiles = atoi(argv[1]); 
 
       struct timeval tBegin, tEnd;
   

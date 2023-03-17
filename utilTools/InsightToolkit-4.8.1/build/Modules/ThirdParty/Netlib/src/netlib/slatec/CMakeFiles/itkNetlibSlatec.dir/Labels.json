@@ -1,0 +1,73 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/d1mach.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgmc.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/d9gmit.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgic.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/d9lgit.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/dbetai.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/dcsevl.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/dgami.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamit.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamlm.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamma.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/dgamr.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/dlbeta.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/dlgams.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/dlngam.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/dlnrel.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/initds.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/xermsg.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/d_int.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Netlib/src/netlib/slatec/d_mod.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKNetlib"
+		],
+		"name" : "itkNetlibSlatec"
+	}
+}

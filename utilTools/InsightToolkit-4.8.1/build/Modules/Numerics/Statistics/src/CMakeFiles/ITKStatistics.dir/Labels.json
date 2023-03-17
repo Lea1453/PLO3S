@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Statistics/src/itkProbabilityDistribution.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Statistics/src/itkDenseFrequencyContainer2.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Statistics/src/itkSparseFrequencyContainer2.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Statistics/src/itkChiSquareDistribution.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Statistics/src/itkGaussianDistribution.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Statistics/src/itkTDistribution.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Statistics/src/itkNormalVariateGenerator.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Statistics/src/itkDecisionRule.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Statistics/src/itkMaximumDecisionRule.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Statistics/src/itkMaximumRatioDecisionRule.cxx"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Statistics/src/itkMinimumDecisionRule.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKStatistics"
+		],
+		"name" : "ITKStatistics"
+	}
+}

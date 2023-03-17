@@ -1,0 +1,184 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5AbstractDs.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5ArrayType.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5AtomType.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Attribute.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5CommonFG.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5CompType.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5DataSet.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5DataSpace.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5DataType.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5DcreatProp.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5DxferProp.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5EnumType.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Exception.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5FaccProp.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5FcreatProp.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5File.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5FloatType.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Group.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5IdComponent.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5IntType.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Library.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Object.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5PredType.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5PropList.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5StrType.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5VarLenType.cpp"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5AbstractDs.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Alltypes.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5ArrayType.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5AtomType.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Attribute.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Classes.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5CommonFG.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5CompType.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Cpp.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5CppDoc.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5DataSet.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5DataSpace.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5DataType.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5DcreatProp.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5DxferProp.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5EnumType.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Exception.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5FaccProp.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5FcreatProp.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5File.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5FloatType.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Group.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5IdComponent.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Include.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5IntType.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Library.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5Object.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5PredType.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5PropList.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5StrType.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/HDF5/src/itkhdf5/c++/src/H5VarLenType.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKHDF5"
+		],
+		"name" : "itkhdf5_cpp"
+	}
+}

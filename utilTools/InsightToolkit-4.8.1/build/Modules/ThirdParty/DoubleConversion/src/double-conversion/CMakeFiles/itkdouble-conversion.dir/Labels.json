@@ -1,0 +1,67 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum.cc"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum-dtoa.cc"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/cached-powers.cc"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/diy-fp.cc"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion.cc"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fast-dtoa.cc"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fixed-dtoa.cc"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/strtod.cc"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/bignum.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/cached-powers.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/diy-fp.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fast-dtoa.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/fixed-dtoa.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/ieee.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/strtod.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/DoubleConversion/src/double-conversion/utils.h"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/build/Modules/ThirdParty/DoubleConversion/src/double-conversion/double-conversion-configure.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKDoubleConversion"
+		],
+		"name" : "itkdouble-conversion"
+	}
+}

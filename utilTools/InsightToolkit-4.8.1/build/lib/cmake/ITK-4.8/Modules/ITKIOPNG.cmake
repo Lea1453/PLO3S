@@ -1,0 +1,6 @@
+set(ITKIOPNG_LOADED 1)
+set(ITKIOPNG_DEPENDS "ITKIOImageBase;ITKPNG")
+set(ITKIOPNG_LIBRARIES "ITKIOPNG")
+set(ITKIOPNG_INCLUDE_DIRS "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/PNG/include")
+set(ITKIOPNG_LIBRARY_DIRS "")
+

@@ -1,0 +1,7 @@
+# Target labels
+ ITKIOMeta
+# Source files and their labels
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Meta/src/itkMetaArrayWriter.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Meta/src/itkMetaImageIO.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Meta/src/itkMetaArrayReader.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/IO/Meta/src/itkMetaImageIOFactory.cxx

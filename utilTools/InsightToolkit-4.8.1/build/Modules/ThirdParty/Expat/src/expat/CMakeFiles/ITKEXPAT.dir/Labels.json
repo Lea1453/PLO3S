@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Expat/src/expat/xmlparse.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Expat/src/expat/xmltok.c"
+		},
+		{
+			"file" : "/home/jeremy/kit/InsightToolkit-4.8.1/Modules/ThirdParty/Expat/src/expat/xmlrole.c"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ITKExpat"
+		],
+		"name" : "ITKEXPAT"
+	}
+}

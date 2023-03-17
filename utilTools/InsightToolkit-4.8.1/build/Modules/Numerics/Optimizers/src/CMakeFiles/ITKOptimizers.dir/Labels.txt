@@ -1,0 +1,34 @@
+# Target labels
+ ITKOptimizers
+# Source files and their labels
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkNonLinearOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkMultipleValuedCostFunction.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkSingleValuedCostFunction.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkConjugateGradientOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkRegularStepGradientDescentOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkLBFGSOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkExhaustiveOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkLevenbergMarquardtOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkSingleValuedNonLinearVnlOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkQuaternionRigidTransformGradientDescentOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkSPSAOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkSingleValuedVnlCostFunctionAdaptor.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkMultipleValuedNonLinearVnlOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkPowellOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkVersorRigid3DTransformOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkVersorTransformOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkOnePlusOneEvolutionaryOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkMultipleValuedNonLinearOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkLBFGSBOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkCumulativeGaussianOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkAmoebaOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkCumulativeGaussianCostFunction.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkFRPROptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkGradientDescentOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkSingleValuedNonLinearOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkRegularStepGradientDescentBaseOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkMultipleValuedVnlCostFunctionAdaptor.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkParticleSwarmOptimizerBase.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkParticleSwarmOptimizer.cxx
+/home/jeremy/kit/InsightToolkit-4.8.1/Modules/Numerics/Optimizers/src/itkInitializationBiasedParticleSwarmOptimizer.cxx
