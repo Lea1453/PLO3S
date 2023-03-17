@@ -21,7 +21,7 @@
 #include "itkMeshFileReader.h"
 #include "itkMeshFileWriter.h"
 
-#include "/home/jeremy/travail/kit/InsightToolkit-4.8.1/Modules/Nonunit/Review/include/itkConformalFlatteningMeshFilter.h"
+#include "../utilTools/InsightToolkit-4.8.1/Modules/Nonunit/Review/include/itkConformalFlatteningMeshFilter.h"
 
 #include "TriDT.h"
 
