@@ -1,0 +1,7 @@
+ifndef _STATS_H_
+#define _STATS_H_
+
+void print_nbPts_vs_time();
+
+#endif
+

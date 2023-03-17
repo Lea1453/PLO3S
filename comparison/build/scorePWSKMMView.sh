@@ -1,5 +1,8 @@
 #! /bin/bash
 
+
+#COMPARISON-------------------------------------------
+
 filesIn=""
 filesR=""
 
@@ -43,6 +46,10 @@ for fMat in $listMat; do
     ./scoreDistCvxLocal ${filesIn} ${filesInWKS} "${fout}"
 
 done
+
+
+
+#MATRIX IMAGE-------------------------------------------
 
 
 filesRin=""
