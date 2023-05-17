@@ -1,6 +1,9 @@
 source("WKS.m")
 
-n=404
+folderIn = 'in'
+fDir=dir([folderIn '/*.off'])
+n=size(fDir,1)
+    
 timeEla=0
 
 for ix= 1:n
