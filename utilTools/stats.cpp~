@@ -1,9 +1,0 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <iostream>
-#include <fstream>
-#include <sstream>
-#include <math.h>
-#include <string.h>
-
-#include "stats.hpp"
