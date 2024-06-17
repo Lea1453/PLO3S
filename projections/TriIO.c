@@ -746,7 +746,7 @@ Image2Laser vidock_triangulateStackSpheric2ImageElevation_Step(p3D stackP3DSph,p
 
 
   //NON BINARY :
-  // fprintf(fileImageVector, "POINTS %d SIZEXY %d %d float\n", nbPoints, nbColonnes, nbLignes); 
+   fprintf(fileImageVector, "POINTS %d SIZEXY %d %d float\n", nbPoints, nbColonnes, nbLignes); 
   //BINARY :
   //fwrite(&nbPoints, sizeof(int), 1, fileImageVector);
   //fwrite(&nbColonnes, sizeof(int), 1, fileImageVector);
@@ -867,7 +867,7 @@ Image2Laser vidock_triangulateStackSpheric2ImageElevation_Step(p3D stackP3DSph,p
   printf("Ajout des triangles au fichier \n");
   
   //NON BINARY :
-  //fprintf(fileImageVector, "POLYGONS %d %d\n", sphTriIO->numberoftriangles, 4*sphTriIO->numberoftriangles);
+  fprintf(fileImageVector, "POLYGONS %d %d\n", sphTriIO->numberoftriangles, 4*sphTriIO->numberoftriangles);
   //BINARY :
   // fwrite(&(sphTriIO->numberoftriangles), sizeof(int), 1, fileImageVector);
   //int fourTimeNbTri = 4*sphTriIO->numberoftriangles;
@@ -900,7 +900,7 @@ Image2Laser vidock_triangulateStackSpheric2ImageElevation_Step(p3D stackP3DSph,p
 	  int trois = 3;
 
 	  //NON BINARY :
-	  // fprintf(fileImageVector, "3 %d %d %d\n",sphTriIO->trianglelist[3*ii+0] , sphTriIO->trianglelist[3*ii+1],sphTriIO->trianglelist[3*ii+2] );
+	   fprintf(fileImageVector, "3 %d %d %d\n",sphTriIO->trianglelist[3*ii+0] , sphTriIO->trianglelist[3*ii+1],sphTriIO->trianglelist[3*ii+2] );
 	  //BINARY :
 	  // fwrite(&trois, sizeof(int), 1, fileImageVector);
 	  // fwrite(&(sphTriIO->trianglelist[3*ii+0]), sizeof(int), 1, fileImageVector);
