@@ -12,7 +12,7 @@ octave ./WKS/WKS_main.m
 
 #Copy the needed files to the next folder projections
 cp ./WKS/out/* ./projections/in/
-cp ./WKS/in/*off
+cp ./WKS/in/*off ./projections/in/
 
 
 #Compute the projection on the 2D space
